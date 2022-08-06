@@ -23,7 +23,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:text="date and  time"
-        android:background="@drawable/shadow_black"
         android:textColor="@color/blu"
         android:padding="10dp"
         android:layout_marginLeft="10dp"
@@ -40,7 +39,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:text="set An Appropriate Title"
-        android:background="@drawable/shadow_black"
         android:textColor="@color/red"
         android:padding="10dp"
         android:layout_marginLeft="10dp"
@@ -61,7 +59,8 @@
             android:id="@+id/diary_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="20dp"
+            android:padding="20dp"
             android:hint="spell your thoughts !"
             android:textColor="@color/blu" />
 

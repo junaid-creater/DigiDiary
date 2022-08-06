@@ -100,29 +100,27 @@
             android:layout_toLeftOf="@id/privacy_tag"
             android:src="@drawable/policy_24dp" />
 
-        <TextView
-            android:id="@+id/privacy_tag"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-            android:paddingLeft="10dp"
-            android:layout_width="110dp"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="17dp"
-            android:text="guna*d.com"
-            />
+          <TextView
+              android:id="@+id/privacy_tag"
+              android:layout_width="110dp"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_gravity="center"
+              android:paddingLeft="10dp"
+              android:text="juna*d.com"
+              android:textColor="@color/white"
+              android:textSize="17dp" />
 
-        <TextView
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/grey"
-            android:textSize="17dp"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/privacy_tag"
-            android:text="Copyright @ guna*d. All Rights Reserved."
-            />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/privacy_tag"
+              android:layout_centerHorizontal="true"
+              android:layout_gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Copyright @ juna*d. All Rights Reserved."
+              android:textColor="@color/grey"
+              android:textSize="17dp" />
 
 
     </RelativeLayout>

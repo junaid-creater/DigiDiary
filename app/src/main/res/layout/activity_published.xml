@@ -29,25 +29,31 @@
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
-        <EditText
+          <androidx.cardview.widget.CardView
+              android:id="@+id/kli"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:cardElevation="10dp"
+              android:layout_margin="5dp"
+              app:cardCornerRadius="10dp">
+                <EditText
+                    android:id="@+id/published_search_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:hint="search by name"
+                    android:padding="20dp" />
+          </androidx.cardview.widget.CardView>
 
-            android:id="@+id/published_search_text"
-            android:layout_width="match_parent"
-            android:gravity="center_vertical"
-            android:background="@drawable/shadow_black"
-            android:hint="search by name"
-            android:paddingLeft="10dp"
-            android:layout_height="50dp" />
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/published_list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_below="@+id/kli"
+              android:layout_margin="5dp"
+              android:scrollbars="horizontal">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_below="@+id/published_search_text"
-            android:layout_margin="5dp"
-            android:id="@+id/published_list"
-            android:scrollbars="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </androidx.recyclerview.widget.RecyclerView>
+          </androidx.recyclerview.widget.RecyclerView>
 
 
     </RelativeLayout>
