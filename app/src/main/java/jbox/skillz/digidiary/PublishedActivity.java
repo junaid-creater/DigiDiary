@@ -111,6 +111,8 @@ public class PublishedActivity extends AppCompatActivity implements DroidListene
                                     public void onClick(View v) {
                                         Intent i = new Intent(PublishedActivity.this, PopActivity.class);
                                         i.putExtra("note_text", model.getNote());
+                                        i.putExtra("note_title", model.getName());
+                                        i.putExtra("note_loc", model.getLocation());
                                         startActivity(i);
                                     }
                                 });

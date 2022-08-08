@@ -66,10 +66,10 @@ public class CreateNew extends AppCompatActivity implements DroidListener {
         newCancel = findViewById(R.id.new_cancel);
         newCreate = findViewById(R.id.new_create);
 
-        mToolbar = findViewById(R.id.create_bar);
-        setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("Make Note");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        mToolbar = findViewById(R.id.create_bar);
+//        setSupportActionBar(mToolbar);
+//        getSupportActionBar().setTitle("Make Note");
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         FirebaseUser current_user = FirebaseAuth.getInstance().getCurrentUser();
         uid = current_user.getUid();

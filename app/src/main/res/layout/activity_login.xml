@@ -15,24 +15,26 @@
         android:layout_height="0dp"
         android:gravity="bottom">
 
-        <TextView
-            android:id="@+id/login_app_name"
-            android:fontFamily="cursive"
-            android:text="Digi Diary"
-            android:textColor="@color/red"
-            android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30dp"/>
-        <TextView
-            android:layout_below="@+id/login_app_name"
-            android:fontFamily="cursive"
-            android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Welcome to Digi Diary"
-            android:textColor="@color/blu"/>
+          <TextView
+              android:id="@+id/login_app_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:fontFamily="@font/the_bomb"
+              android:text="Digi Diary"
+              android:textColor="@color/red"
+              android:textSize="20dp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/login_app_name"
+              android:layout_centerHorizontal="true"
+              android:fontFamily="@font/smr"
+              android:padding="10dp"
+              android:text="Welcome to Digi Diary"
+              android:textColor="@color/blu"
+              android:textSize="20dp" />
 
     </RelativeLayout>
 
@@ -82,6 +84,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="30dp"
                 android:text="login"
+                android:textSize="10dp"
+                android:fontFamily="@font/the_bomb"
                 android:textColor="@color/red"
                 android:background="@drawable/shadow_black"
                 />

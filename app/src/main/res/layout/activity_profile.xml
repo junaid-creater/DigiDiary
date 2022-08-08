@@ -14,11 +14,11 @@
         >
 
 
-        <ImageView
-            android:id="@+id/back"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="@drawable/pf_back" />
+          <ImageView
+              android:id="@+id/back"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:background="@drawable/pf_back" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/user_profile_image"
@@ -46,16 +46,18 @@
             android:layout_below="@+id/change_profile"
             android:layout_alignParentEnd="true"
             android:src="@drawable/signout_24dp" />
-        <TextView
-            android:id="@+id/user_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/user_profile_image"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="30dp"
-            android:text="Zack David"
-            android:textSize="25dp"
-            android:textColor="@color/blu"/>
+
+          <TextView
+              android:id="@+id/user_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/user_profile_image"
+              android:layout_centerInParent="true"
+              android:layout_marginTop="30dp"
+              android:fontFamily="@font/the_bomb"
+              android:text="Zack David"
+              android:textColor="@color/blu"
+              android:textSize="25dp" />
         <TextView
             android:id="@+id/user_loc"
             android:layout_width="wrap_content"

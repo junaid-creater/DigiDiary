@@ -111,6 +111,8 @@ public class ExistingActivity extends AppCompatActivity implements DroidListener
                                     public void onClick(View v) {
                                         Intent i = new Intent(ExistingActivity.this, PopActivity.class);
                                         i.putExtra("note_text", model.getNote());
+                                        i.putExtra("note_title", model.getTitle());
+                                        i.putExtra("note_loc", model.getDate());
                                         startActivity(i);
                                     }
                                 });

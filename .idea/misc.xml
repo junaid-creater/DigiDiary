@@ -6,17 +6,18 @@
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_animation.xml" value="0.16598569969356486" />
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_edit_profile.xml" value="0.16927083333333334" />
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_existing.xml" value="0.16927083333333334" />
-        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_login.xml" value="0.16927083333333334" />
+        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_login.xml" value="0.21" />
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_main.xml" value="0.16927083333333334" />
-        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_pop.xml" value="0.16927083333333334" />
-        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_profile.xml" value="0.16927083333333334" />
+        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_pop.xml" value="0.1" />
+        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_published.xml" value="0.16927083333333334" />
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/activity_register.xml" value="0.16927083333333334" />
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/app_bar_layout.xml" value="0.16927083333333334" />
-        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/create_new.xml" value="0.21" />
-        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/existing_list_layout.xml" value="0.25" />
+        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/create_new.xml" value="0.24959481361426256" />
+        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/existing_list_layout.xml" value="0.33" />
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/published_list_layout.xml" value="0.25" />
         <entry key="..\:/android projekts/DigiDiary/app/src/main/res/layout/stylish_app_bar_layout.xml" value="0.16927083333333334" />
+        <entry key="..\:/android projekts/DigiDiary/app/src/main/res/mipmap-anydpi-v26/cc.xml" value="0.123" />
       </map>
     </option>
   </component>

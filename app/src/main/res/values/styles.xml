@@ -14,12 +14,5 @@
         <item name="colorPrimaryDark">@color/blu</item>
     </style>
 
-    <style name="AppTheme.popMe">
-
-        <!--<item name="android:windowIsTranslucent">false</item>-->
-        <item name="android:windowBackground">@drawable/shadow_line</item>
-        <item name="android:windowCloseOnTouchOutside">true</item>
-
-    </style>
 
 </resources>

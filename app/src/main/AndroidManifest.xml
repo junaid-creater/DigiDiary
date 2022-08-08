@@ -22,8 +22,7 @@
         <activity
             android:name=".ExistingActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".PopActivity"
-            android:theme="@style/AppTheme.popMe" />
+        <activity android:name=".PopActivity"/>
         <activity
             android:name=".Animation"
             android:screenOrientation="portrait"
