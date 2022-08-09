@@ -85,7 +85,7 @@ public class ExistingActivity extends AppCompatActivity implements DroidListener
 
         mProgress = new ProgressDialog(this);
         mProgress.setTitle("Loading All Existing Notes");
-        mProgress.setMessage("Weight while we load All Notes");
+        mProgress.setMessage("Wait while we load All Notes");
         mProgress.setCanceledOnTouchOutside(false);
         mProgress.show();
 

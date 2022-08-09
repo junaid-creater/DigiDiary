@@ -15,7 +15,9 @@
           android:gravity="center_vertical"
           android:padding="10dp"
           android:text="title of the note"
-          android:textColor="@color/blu" />
+          android:textStyle="bold"
+          android:textAllCaps="true"
+          android:textColor="@color/blu"/>
 
       <TextView
           android:id="@+id/existing_list_layout_date"
@@ -34,17 +36,17 @@
       <TextView
           android:id="@+id/existing_list_layout_note"
           android:layout_width="match_parent"
-          android:layout_height="300dp"
+          android:layout_height="120dp"
           android:layout_below="@id/existing_list_layout_date"
           android:layout_marginStart="10dp"
           android:layout_marginTop="10dp"
           android:layout_marginEnd="10dp"
           android:layout_marginBottom="10dp"
-          android:fontFamily="@font/smr"
+          android:fontFamily="@font/killman"
           android:hint="note"
           android:padding="30dp"
-          android:textColor="@color/blu"
+          android:textColor="@color/black"
           android:textColorHint="@color/dark"
-          android:textSize="18dp" />
+          android:textSize="20dp" />
 
 </RelativeLayout>

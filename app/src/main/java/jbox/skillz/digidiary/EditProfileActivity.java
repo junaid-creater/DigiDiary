@@ -205,7 +205,7 @@ public class EditProfileActivity extends AppCompatActivity implements DroidListe
             if (resultCode == RESULT_OK)
             {
                 mProgress.setTitle("Updating Image");
-                mProgress.setMessage("Please weight while update finishes");
+                mProgress.setMessage("Please wait while update finishes");
                 mProgress.setCanceledOnTouchOutside(false);
                 mProgress.show();
 

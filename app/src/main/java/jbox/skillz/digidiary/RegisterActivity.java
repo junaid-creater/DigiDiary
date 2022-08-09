@@ -77,7 +77,7 @@ public class RegisterActivity extends AppCompatActivity implements DroidListener
             @Override
             public void onClick(View v) {
                 mProgress.setTitle("Registring User");
-                mProgress.setMessage("please weight while we create your account !");
+                mProgress.setMessage("please wait while we create your account !");
                 mProgress.show();
                 mProgress.setCanceledOnTouchOutside(false);
 

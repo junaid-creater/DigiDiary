@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity implements DroidListener {
             @Override
             public void onClick(View v) {
                 mProgress.setTitle("Logging In");
-                mProgress.setMessage("Please weight while we check your credentials");
+                mProgress.setMessage("Please wait while we check your credentials");
                 mProgress.setCanceledOnTouchOutside(false);
                 mProgress.show();
 

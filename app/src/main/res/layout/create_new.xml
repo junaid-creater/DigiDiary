@@ -62,8 +62,9 @@
                             android:layout_height="wrap_content"
                             android:padding="20dp"
                             android:hint="spell your thoughts !"
-                            android:textSize="25dp"
-                            android:fontFamily="@font/smr"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/killman"
+                            android:lineHeight="@dimen/cardview_compat_inset_shadow"
                             android:textColor="@color/black" />
 
                   </com.google.android.material.textfield.TextInputLayout>

@@ -69,7 +69,7 @@ public class ProfileActivity extends AppCompatActivity implements DroidListener 
         super.onStart();
         mProgress = new ProgressDialog(this);
         mProgress.setTitle("Loading User Data");
-        mProgress.setMessage("Weight while we load the User Data.");
+        mProgress.setMessage("Wait while we load the User Data.");
         mProgress.setCanceledOnTouchOutside(false);
         mProgress.show();
 

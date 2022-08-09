@@ -84,7 +84,7 @@ public class PublishedActivity extends AppCompatActivity implements DroidListene
         publishedSearchText.setVisibility(View.GONE);
         mProgress = new ProgressDialog(this);
         mProgress.setTitle("Loading published Notes");
-        mProgress.setMessage("Weight while we load All Notes");
+        mProgress.setMessage("Wait while we load All Notes");
         mProgress.setCanceledOnTouchOutside(false);
         mProgress.show();
 

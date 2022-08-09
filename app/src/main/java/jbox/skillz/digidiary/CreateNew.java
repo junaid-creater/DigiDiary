@@ -104,7 +104,7 @@ public class CreateNew extends AppCompatActivity implements DroidListener {
             public void onClick(View v) {
                 mProgress = new ProgressDialog(CreateNew.this);
                 mProgress.setTitle("creating Note");
-                mProgress.setMessage("please weight while we create your Note!");
+                mProgress.setMessage("please wait while we create your Note!");
                 mProgress.show();
                 mProgress.setCanceledOnTouchOutside(false);
 

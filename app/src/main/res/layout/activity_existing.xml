@@ -5,28 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/light"
     android:weightSum="4"
     tools:context=".ExistingActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/pf_back"
-        android:layout_weight="0.3">
-        <TextView
-            android:textStyle="bold"
-            android:layout_centerInParent="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:textColor="@color/red"
-            android:text="Digi Diary"/>
+        android:layout_weight="0.5">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:layout_marginStart="5dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginEnd="5dp"
+              android:layout_marginBottom="5dp"
+              android:fontFamily="@font/the_bomb"
+              android:text="Existing"
+              android:textColor="@color/red"
+              android:textSize="20dp"
+              android:textStyle="bold" />
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_weight="3.4"
+        android:layout_weight="3.2"
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
